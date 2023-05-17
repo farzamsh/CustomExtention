@@ -50,6 +50,7 @@ h1 {
 }
 
 .buttons button {
+  padding: 5px;
   width: 120px;
   height: 40px;
   font-size: 16px;
