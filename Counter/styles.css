@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-family: Arial, sans-serif;
+  background-color: #00f150;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #39803d;
+}
+
+#incrementButton {
+  background-color: #2196F3;
+}
+
+#incrementButton:hover {
+  background-color: #1976D2;
+}
+
+#incrementButton:active {
+  background-color: #1565C0;
+}
+
+#decrementButton {
+  background-color: #FF5722;
+}
+
+#decrementButton:hover {
+  background-color: #E64A19;
+}
+
+#decrementButton:active {
+  background-color: #D84315;
+}
+
+#resetButton {
+  background-color: #FFC107;
+}
+
+#resetButton:hover {
+  background-color: #FFB300;
+}
+
+#resetButton:active {
+  background-color: #FFA000;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
